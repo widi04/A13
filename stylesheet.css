@@ -1,11 +1,58 @@
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+
+.header-left {
+  position: sticky;
+  float: left;
+}
+
+.header-left h1 {
+  position: absolute;
+  width: 356px;
+  height: 49px;
+  left: 52px;
+  top: -7px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 29px;
+
+  color: #a79b9b;
+}
+
+.header-right {
+  position: sticky;
+  float: right;
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
 .lesson-wrapper {
   height: 441px;
   padding-bottom: 40px;
   background-color: #000000;
   text-align: center;
 }
-
-
 
 .lesson {
   position: relative;
@@ -17,7 +64,7 @@
   position: relative;
 }
 
-.lesson-icon img{
+.lesson-icon img {
   vertical-align: middle;
   width: 200px;
   height: 200px;
@@ -25,7 +72,7 @@
   object-fit: cover;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   vertical-align: middle;
   top: 0;
@@ -35,11 +82,11 @@
   height: 200px;
   width: 200px;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   border-radius: 50%;
   background-color: black;
   object-fit: cover;
-  margin-left : 16%;
+  margin-left: 16%;
 }
 
 .lesson-icon:hover .overlay {
@@ -56,7 +103,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  
 }
 
 .lesson-icon p {
@@ -147,45 +193,11 @@ a {
   margin-right: 5px;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-}
-
 .logo {
   float: left;
   width: 40px;
   margin-top: 10px;
 }
-
-.header-left {
-  position: sticky;
-  float: left;
-}
-
-.header-right {
-  position: sticky;
-  float: right;
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
-  transition: all 0.5s;
-  
-}
-
-.header-right:hover {
-  background-color: #00a2c6;
-  padding: 5px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-}
-
 
 .heading {
   padding-top: 60px;
@@ -193,7 +205,7 @@ header {
   color: #5f5d60;
 }
 
-.heading h2{
+.heading h2 {
   font-weight: normal;
 }
 
@@ -202,11 +214,9 @@ header {
   width: 25%;
 }
 
-
 .lesson-icon {
   position: relative;
 }
-
 
 .txt-contents {
   width: 80%;
@@ -241,64 +251,101 @@ header {
   box-shadow: none;
 }
 
-footer img{
-   width: 60px;
+.main-2 {
+  background-image: url(https://i.pinimg.com/originals/8a/b8/66/8ab86636d6740e5a418e9d8cb000f786.jpg);
+  color: white;
+  height: 350px;
 }
 
-footer p{
+.image {
+  float: left;
+  padding: 20px;
+}
+
+.album-title, .order-now {
+  text-align: left;
+  float: left;
+  margin-right: 50px;
+}
+
+.album-desc {
+  color: white;
+  text-align: left;
+  font-size: 12pt;
+  padding-top: 20px;
+}
+        
+.album-title {
+  font-size: 15pt;
+}
+
+.order-now {
+  background-color: #F00;
+  color: #000;
+  font-size: 12pt;
+}
+
+
+footer img {
+  width: 60px;
+}
+
+footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
 
 footer {
-background-image: url(https://i.pinimg.com/originals/8a/b8/66/8ab86636d6740e5a418e9d8cb000f786.jpg);
-padding-top: 20px;
-background-size: cover;
+  background-image: url(https://i.pinimg.com/originals/8a/b8/66/8ab86636d6740e5a418e9d8cb000f786.jpg);
+  padding-top: 20px;
+  background-size: cover;
 }
 
 footer h1 {
   position: absolute;
-        width: 356px;
-        height: 49px;
-        left: 167px;
-        top: 1590px;
+  width: 356px;
+  height: 49px;
+  left: 167px;
+  top: 1950px;
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 29px;
 
-        color: #A79B9B;
+  color: #a79b9b;
 }
 footer h2 {
   position: absolute;
-        width: 356px;
-        height: 49px;
-        left: 164px;
-        top: 1618px;
+  width: 356px;
+  height: 49px;
+  left: 164px;
+  top: 1975px;
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 29px;
 
-        color: #A79B9B;
+  color: #a79b9b;
 }
 
-.header-left h1 {
-position: absolute;
-        width: 356px;
-        height: 49px;
-        left: 52px;
-        top: -7px;
+@media (max-width: 1200px) {
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 32px;
-        line-height: 29px;
-
-        color: #A79B9B;
+  header {
+    height: 130px;
+    position: absolute;
+    float: initial;
+  }
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .header-left {
+    position: absolute;
+    float: initial;
+  }
 }
